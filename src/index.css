@@ -1,4 +1,13 @@
+@font-face {
+  font-family: "PistilliRoman";
+  src: local("PistilliRoman"), url(./assets/fonts/Pistilli-Roman.otf) format("otf");
+}
+@font-face {
+  font-family: "NeueHaasGroteskDisplayPro";
+  src: local("NeueHaasGroteskDisplayPro"),
+    url(./assets/fonts/Neue-Haas-Grotesk-Display-Pro-75-Bold.ttf) format("ttf");
+}
 body {
   margin: 0;
-  font-family: 'Trirong', serif;
+  font-family: "PistilliRoman", serif;
 }

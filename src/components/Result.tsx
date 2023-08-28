@@ -1,3 +1,5 @@
+import styled from "styled-components"
+
 interface IResultProps {
   restartGame: () => void
 }
@@ -9,3 +11,4 @@ const Result = ({restartGame}: IResultProps) => (
   </div>
 )
 export default Result
+

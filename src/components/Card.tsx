@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import img from "./card-back.jpg"
+import img from "../assets/card-back.jpg"
 import { CardWithId } from 'src/common/types'
 
 interface ICardProps {
