@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.c6ec74bc.css",
-    "main.js": "/memory-game/static/js/main.13b7cfde.js",
+    "main.css": "/memory-game/static/css/main.745725eb.css",
+    "main.js": "/memory-game/static/js/main.ed54ad3f.js",
     "static/js/787.69b12325.chunk.js": "/memory-game/static/js/787.69b12325.chunk.js",
     "static/media/card-back.jpg": "/memory-game/static/media/card-back.60e77b080a779c687eb1.jpg",
+    "static/media/Neue-Haas-Grotesk-Display-Pro-75-Bold.ttf": "/memory-game/static/media/Neue-Haas-Grotesk-Display-Pro-75-Bold.fe5a3b9cb756da36e3ec.ttf",
+    "static/media/itMe.jpg": "/memory-game/static/media/itMe.faee9f82fab1d381bf4f.jpg",
+    "static/media/Pistilli-Roman.otf": "/memory-game/static/media/Pistilli-Roman.0b400c3fbbaa116d6357.otf",
     "index.html": "/memory-game/index.html",
-    "main.c6ec74bc.css.map": "/memory-game/static/css/main.c6ec74bc.css.map",
-    "main.13b7cfde.js.map": "/memory-game/static/js/main.13b7cfde.js.map",
+    "main.745725eb.css.map": "/memory-game/static/css/main.745725eb.css.map",
+    "main.ed54ad3f.js.map": "/memory-game/static/js/main.ed54ad3f.js.map",
     "787.69b12325.chunk.js.map": "/memory-game/static/js/787.69b12325.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6ec74bc.css",
-    "static/js/main.13b7cfde.js"
+    "static/css/main.745725eb.css",
+    "static/js/main.ed54ad3f.js"
   ]
 }
