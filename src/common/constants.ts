@@ -1,6 +1,6 @@
 export const DIFFICULTY = ['easy', 'medium', 'hard', 'pro']
-export const DEFAULT_DIFFICULTY = DIFFICULTY[0]
-export const DEFAULT_DECK_SIZE = 10
+export const DEFAULT_DIFFICULTY = DIFFICULTY[2]
+export const DEFAULT_DECK_SIZE = 12
 export const DECK_CHANGE = {
     INCREASE: 'INCREASE',
     DECREASE: 'DECREASE'

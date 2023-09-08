@@ -45,7 +45,7 @@ const MemoryApp = styled.div`
   min-height: calc(100vh - 4em);
   position: relative;
   color: ${COLORS.lightBlue};
-  padding: 2em;
+  padding: 2em 2em 4em;
 `
 
 const Background = styled.div`

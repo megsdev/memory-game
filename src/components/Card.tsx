@@ -1,10 +1,11 @@
 import React from "react"
 import styled from "styled-components"
 import img from "../assets/card-back.jpg"
-import { CardWithId } from 'src/common/types'
+import { CardWithId } from "src/common/types"
+import { COLORS, TRANSITION } from "src/common/constants"
 
 interface ICardProps {
-  card: CardWithId,
+  card: CardWithId
   onCardClick: (clickedCardId: number) => void
 }
 
@@ -38,13 +39,13 @@ const Card = ({ card, onCardClick }: ICardProps) => {
 export default Card
 
 const Container = styled.div<ICardContainer>`
-  width: 250px;
-  height: 330px;
   position: relative;
   perspective: 800px;
-  border-radius: 6px;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(66, 66, 69, 0.16);
+  transition: ${TRANSITION};
+  border: 0.5em solid ${COLORS.lightBlue};
+  aspect-ratio: 779 / 1024;
 
   ${props =>
     props.isFound &&
@@ -56,12 +57,12 @@ background: rgba(189, 224, 254, 0.46);
 `
 const CardContent = styled.div`
   width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.337);
+  border: none;
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
   transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  border-radius: 6px;
+  border-radius: 10px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 
@@ -85,7 +86,7 @@ const Front = styled.div`
   display: flex;
   max-width: 100%;
   max-height: 100%;
-  background-color: #2b384d;
+  background-color: ${COLORS.darkBlue};
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
